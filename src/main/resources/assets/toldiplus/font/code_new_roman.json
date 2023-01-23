@@ -1,0 +1,11 @@
+{
+     "providers": [
+         {
+             "type": "ttf",
+             "file": "toldiplus:code_new_roman.ttf",
+ 			"shift": [0, 1],
+ 			"size": 11.0,
+ 			"oversample": 2.0
+         }
+ 	]
+}

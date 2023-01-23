@@ -1,0 +1,29 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_16",
+  "package": "me.geza3d.toldi.mixin",
+  "mixins": [
+  ],
+  "client": [
+    "ToldiPlusMixins$ClientConnectionMixin",
+    "ToldiPlusMixins$MinecraftClientMixin",
+    "ToldiPlusMixins$EntityMixin",
+    "ToldiPlusMixins$ServerPlayerEntityMixin",
+    "ToldiPlusMixins$WorldRendererMixin",
+    "ToldiPlusMixins$InGameHudMixin",
+    "ToldiPlusMixins$ClientEntityHandlerMixin",
+    "ToldiPlusMixins$GameRendererMixin",
+    "ToldiPlusMixins$KeyboardMixin",
+    "ToldiPlusMixins$LightmapTextureManagerMixin",
+    "ToldiPlusMixins$EntityRenderDispatcherMixin",
+    "ToldiPlusMixins$ClientPlayerEntityMixin",
+    "ToldiPlusMixins$RenderLayerMixin",
+    "ToldiPlusMixins$RenderLayersMixin",
+    "ToldiPlusMixins$BufferBuilderMixin",
+    "ToldiPlusMixins$PlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

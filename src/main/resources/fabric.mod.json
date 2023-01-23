@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "toldi",
+  "version": "${version}",
+
+  "accessWidener" : "toldi.accesswidener",
+
+  "name": "Toldi",
+  "description": "This is a Utility Mod.",
+  "authors": [
+    "geza3D"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "NONE",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.geza3d.toldi.ToldiPlus"
+    ]
+  },
+  "mixins": [
+    "toldi.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.1",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
